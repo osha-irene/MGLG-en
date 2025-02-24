@@ -1,0 +1,45 @@
+{
+  "376734893834633218": {
+    "name": "\"Isoleti\"",
+    "stamps": [
+      "Melody",
+      "Love",
+      "Flower",
+      "Sleep",
+      "Sky"
+    ],
+    "anchor": {},
+    "attributes": {
+      "attack": 3,
+      "defense": 3,
+      "source": 3
+    },
+    "book": {
+      "Calling": {
+        "checkStamp": "Variable",
+        "description": "Roll 1D6 to determine the field at random, then roll 2D6 to randomly select a stamp. That becomes the designated stamp. If the check succeeds, a spirit corresponding to the stamp can be summoned."
+      }
+    },
+    "realm": "Poetics",
+    "ss": "Lonesome",
+    "active": {
+      "1335664025521881141": true
+    },
+    "hierarchy": "Librarian",
+    "course": 4,
+    "stats": {
+      "attack": 4,
+      "defense": 4,
+      "source": 4
+    },
+    "institute": "Portal",
+    "magicalName": "Solitary Melodia of the Celestial Realm",
+    "books": {
+      "Calling": {
+        "targetStamp": "Memories",
+        "description": "Roll 1D6 to randomly determine the field, then roll 2D6 to randomly select a target stamp. That stamp becomes the designated stamp. If you succeed in rolling with this stamp, you can summon a spirit corresponding to that stamp.",
+        "currentVita": null
+      }
+    }
+  }
+}
