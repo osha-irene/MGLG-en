@@ -248,7 +248,7 @@ if (message.content.startsWith('!update')) {
 
     // 📌 Create new version string
     let newVersion = `v${currentVersion.major}.${currentVersion.minor}.${currentVersion.patch}`;
-    let finalMessage = `📢 **DX3bot Update: ${newVersion}**\n${announcementMessage || "New features have been added!"}`;
+    let finalMessage = `📢 **MGLG-Eng Update: ${newVersion}**\n${announcementMessage || "New features have been added!"}`;
 
     // ✅ Send announcement to all servers
     client.guilds.cache.forEach((guild) => {
@@ -1119,7 +1119,7 @@ if (command === '!help') {
     const helpMessages = [
         {
             color: 0x0099ff,
-            title: '📖 DX3bot Command List (1/3)',
+            title: '📖 MGLG-ENGbot Command List (1/3)',
             fields: [
                 {
                     name: '🎭 **Character Management**',
@@ -1137,7 +1137,7 @@ if (command === '!help') {
         },
         {
             color: 0x0099ff,
-            title: '📖 DX3bot Command List (2/3)',
+            title: '📖 MGLG-ENGbot Command List (2/3)',
             fields: [
                 {
                     name: '🎭 **Archetype & Rolling System**',
@@ -1163,7 +1163,7 @@ if (command === '!help') {
         },
         {
             color: 0x0099ff,
-            title: '📖 DX3bot Command List (3/3)',
+            title: '📖 MGLG-ENGbot Command List (3/3)',
             fields: [
                 {
                     name: '🎭 **Other Functions**',
